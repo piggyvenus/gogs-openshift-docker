@@ -102,7 +102,7 @@ objects:
         from:
           kind: ImageStreamTag
           namespace: openshift
-          name: postgresql-96-rhel7:latest
+          name: 'postgresql-96-rhel7:latest'
       type: ImageChange
     - type: ConfigChange
 - kind: Service
