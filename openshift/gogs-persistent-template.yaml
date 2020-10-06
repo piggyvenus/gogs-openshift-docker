@@ -101,7 +101,7 @@ objects:
         - postgresql
         from:
           kind: ImageStreamTag
-          name: postgresql:${DATABASE_VERSION}
+          name: 'registry.redhat.io/rhscl/postgresql-96-rhel7:latest'
           namespace: openshift
       type: ImageChange
     - type: ConfigChange
